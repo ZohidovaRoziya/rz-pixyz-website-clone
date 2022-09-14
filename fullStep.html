@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <!-- FONT AWESOME LINK  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <!-- STYLES CSS LINK -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fullStep.css" />
+
+   <!-- SITE TITLE -->
+    <title>PixYz</title>
+  </head>
+
+  <body>
+    <!-- HEADER START  -->
+    <header class="site-header">
+      <div class="header-container container">
+        <div class="logoWrapper">
+          <a href="index.html">
+            <img class="logo" src="./images/icon/site-logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="navbarLeft">
+          
+          <!-- SITE NAV START -->
+          <nav class="site-nav">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="./index.html" class="nav-list__item__link"> HOME </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./about.html" class="nav-list__item__link"> ABOUT US </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./services.html" class="nav-list__item__link"> SERVICES </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./portfolio.html" class="nav-list__item__link"> PORTFOLIO </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./contact.html" class="nav-list__item__link"> CONTACT </a>
+              </li>
+            </ul>
+          </nav>
+          
+          <select class="langSection">
+            <option class="langOption" value="1">UZ</option>
+            <option class="langOption" value="2">RU</option>
+            <option class="langOption" value="3">EN</option>
+          </select>
+         
+                 <!-- BARS BUTTON  -->
+                 <button class="bars-btn" id="bars">
+                  <i class="fa-solid fa-bars" ></i>
+                </button>
+        </div>
+
+           <!-- OVERLAY START  -->
+           <div class="overlay hidden" id="overlay">
+
+            <!-- BARS NAVBAR START -->
+            <nav class="bars-nav hidden" id="bars-nav">
+              <ul class="bars-list">
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./index.html" >HOME</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./about.html" >ABOUT US</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./services.html" >SERVICES</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./portfolio.html" >PORTFOLIO</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./contact.html" >CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+    </header>
+    <!-- SITE MAIN START  -->
+    <main class="site-main">
+        <!-- HERO  SECTION START -->
+        <div class="hero hero__container">
+            <div class="container">
+                <h2 class="hero__title">How we work</h2>
+            </div>
+        </div>
+
+      <!-- SECTION WORK START  -->
+      <section class="work-section">
+        <div class="work-container container">
+          <h2 class="work-title site-title">About PixYz Agency</h2>
+
+          <div class="workWrapper work-content">
+            <img
+              class="workImg"
+              src="./images/img/discussion-img.png"
+              alt="image"
+            />
+            <div class="workText-content">
+              <h3 class="work-heading">First discussion</h3>
+              <p class="work-subtitle">
+                The first step is to give an overview of the problem we want to
+                solve and / or our needs. If the needs are not properly
+                understood, this will cause the creation of a web application
+                that is designed for these purposes to fail.
+              </p>
+            </div>
+          </div>
+          <div class="work-bgBWrapper">
+            <img class="work-bgB" src="./images/img/work-bgB.png"  alt="rasm" />
+          </div>
+          <div class="work-bgBWrapper">
+            <img class="work-bg3" src="./images/img/work-bg3.png" alt="rasm" />
+          </div>
+          <div class="workWrapper work-content">
+            <img class="workImg" src="./images/img/analysis-img.png" alt="image" />
+
+            <div class="workText-content">
+              <h3 class="work-heading">Requirements analysis</h3>
+              <p class="work-subtitle">
+                The goal was to define the goals for implementing <br />
+                the web application. Tasks can be complex, and<br />
+                business logic is often quite complex. At this stage,<br />
+                it is important that these complex tasks can <br />be broken
+                down into more manageable tasks and,therefore, th
+              </p>
+            </div>
+          </div>
+          <div class="workWrapper  work-content work-bg">
+              <img class="workImg" src="./images/img/timeline-img.png" alt="image" />
+              <div class="workText-content">
+                  <h3 class="work-heading">Timeline and Cost Estimation</h3>
+                  <p class="work-subtitle">
+                      Experience is a good ally when it comes to making the right
+                      assessment. If a similar task was completed earlier, it becomes
+                      easier to give an accurate estimate, and time tracking becomes
+                      our recommendation. From the previous step, we can collect all
+                      th
+                    </p>
+                </div>
+                <img class="work-bg5" src="./images/img/work-bg5.png" alt="rasm" />
+                <img class="work-bg6" src="./images/img/work-bg6.png" alt="rasm" />
+            </div>
+               <div class="workWrapper  work-content">
+            <img class="workImg" src="./images/img/planing-img.png" alt="image" />
+            <div class="workText-content">
+              <h3 class="work-heading">The design, Conception, and planing</h3>
+              <p class="work-subtitle">
+                The evaluation gives us an idea of the time required to 
+                complete the entire project. At this stage, our goal is to answer 
+                the following questions: who does what and when? What is the 
+                best technical approach?
+                </p>
+            </div>
+          </div>
+       
+               <div class="workWrapper  work-content">
+            <img class="workImg" src="./images/img/development-img.png" alt="image" />
+            <div class="workText-content">
+              <h3 class="work-heading">The development</h3>
+              <p class="work-subtitle">
+               This is the most famous step. Once the product requirements 
+                document is installed, the development phase can begin. The 
+                goal of this stage is to create an application that meets the 
+                needs identified in previous stages, and since needs tend to 
+                evolve and new implementation ideas may arise during the 
+                implementation stage, it is usually recommended to use a 
+                methodology that provides flexibility and proactivity.
+
+              </p>
+            </div>
+          </div>
+               <div class="workWrapper  work-content work-bg9">
+            <img class="workImg" src="./images/img/testing-img.png" alt="image" />
+            <div class="workText-content">
+              <h3 class="work-heading">The testing phase</h3>
+              <p class="work-subtitle">
+                This stage is also called the user acceptance test. At this stage, 
+                the test group of users checks the feature set and reports 
+                errors, if any. if there are any changes, you can discuss them 
+                with the project Manager, who will advise you on the best way 
+                t
+              </p>
+            </div>
+                <img class="work-bg7" src="./images/img/work-bg7.png" alt="rasm" />
+                <img class="work-bg8" src="./images/img/work-bg8.png" alt="rasm" />
+          </div>
+            <div class="workWrapper">
+            <img class="workImg raketa" src="./images/img/raketa.png" alt="image" />
+            <div class="workText-content">
+              <h3 class="work-heading">The deployment and post-production phase</h3>
+              <p class="work-subtitle">
+                After each feature in a given release has been checked and all 
+                error messages have been fixed, the deployment stage may 
+                begin, this may be the first launch or deployment of a new 
+                release, this is the moment when the web application will work 
+                in its rea
+              </p>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+
+  
+
+
+    <!-- SITE FOOTER START  -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-logoWrapper">
+          <a class="site-logo__link" href="index.html">
+            <img
+              class="site-logo__icon"
+              src="./images/icon/site-logoBlack.svg"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <div class="site-footer__wrapper">
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">About us</h2>
+            <p class="site-footer__about-text">
+              Lorem ipsum dolor sit amet,<br />
+              consetetur sadipscing elitr, <br />
+              sed diam nonumy eirmod
+            </p>
+            <div class="site-footer__socials">
+              <ul class="site-footer__social-list">
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/insta-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/facebook-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/twitter-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/linkedin-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/youTube-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">Important Links</h2>
+            <ul class="site-footer__nav-list">
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">About us </a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Projects</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Services</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Blog</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">Featured Services</h2>
+            <ul class="site-footer__nav-list">
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">IT Managment</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Development</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Services</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">UX/UI Design</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Support Engineer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">Contact</h2>
+            <div class="site-footer__contactWrapper">
+              <div class="site-footer-ImgWrapper">
+                <img
+                  class="site-footer__contactWrapper-img"
+                  src="./images/icon/call-icon.svg"
+                  alt="icon"
+                  width="29"
+                  height="29"
+                />
+              </div>
+              <div class="site-footer__contactTextWr">
+                <p class="site-footer__contactText">Phone</p>
+                <a class="site-footer__contactTextLink" href="#"
+                  >+998 94 658 26 97</a
+                >
+              </div>
+            </div>
+            <div class="site-footer__contactWrapper">
+              <div class="site-footer-ImgWrapper">
+                <img
+                  class="site-footer__contactWrapper-img"
+                  src="./images/icon/email-icon.svg"
+                  alt="icon"
+                  width="33"
+                  height="27"
+                />
+              </div>
+              <div class="site-footer__contactTextWr">
+                <p class="site-footer__contactText">Email</p>
+                <a class="site-footer__contactTextLink" href="#"
+                  >info@pixyz.com</a
+                >
+              </div>
+            </div>
+            <div class="site-footer__contactWrapper">
+              <div class="site-footer-ImgWrapper">
+                <img
+                  class="site-footer__contactWrapper-img"
+                  src="./images/icon/location-icon.svg"
+                  alt="icon"
+                  width="21"
+                  height="30px"
+                />
+              </div>
+              <div class="site-footer__contactTextWr">
+                <p class="site-footer__contactText">Address</p>
+                <a class="site-footer__contactTextLink" href="#"
+                  >Tashkent city, Uzbekistan</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer_bottom">
+        <div class="site-footer_bottom-container container">
+          <p class="site-footer-bottom-Rtext">
+            Copyright @ 2020 PixYz. All Rights Reserved. Designed By Islom
+            Usmonov
+          </p>
+          <p class="site-footer-bottom-Ltext">
+            Terms & Conditions | Privacy Policy
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

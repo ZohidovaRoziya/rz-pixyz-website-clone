@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- FONT AWESOME LINK  -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    
+    <!-- STYLES CSS LINKS  -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+
+    <!-- SITE TITLE -->
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <!-- HEADER START  -->
+    <header class="site-header">
+      <div class="header-container container">
+        <div class="logoWrapper">
+          <a href="index.html">
+            <img class="logo" src="./images/icon/site-logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="navbarLeft">
+          <!-- SITE NAV START -->
+          <nav class="site-nav">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="./index.html" class="nav-list__item__link"> HOME </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./about.html" class="nav-list__item__link">
+                  ABOUT US
+                </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./services.html" class="nav-list__item__link">
+                  SERVICES
+                </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./portfolio.html" class="nav-list__item__link">
+                  PORTFOLIO
+                </a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./contact.html" class="nav-list__item__link active">
+                  CONTACT
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <select class="langSection">
+            <option class="langOption" value="1">UZ</option>
+            <option class="langOption" value="2">RU</option>
+            <option class="langOption" value="3">EN</option>
+          </select>
+           
+                 <!-- BARS BUTTON  -->
+                 <button class="bars-btn" id="bars">
+                  <i class="fa-solid fa-bars" ></i>
+                </button>
+        </div>
+
+           <!-- OVERLAY START  -->
+           <div class="overlay hidden" id="overlay">
+
+            <!-- BARS NAVBAR START -->
+            <nav class="bars-nav hidden" id="bars-nav">
+              <ul class="bars-list">
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./index.html" >HOME</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./about.html" >ABOUT US</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./services.html" >SERVICES</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./portfolio.html" >PORTFOLIO</a>
+                </li>
+  
+                <li class="bars-list__item">
+                  <a class="bars-list__link" href="./contact.html" >CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+    </header>
+
+    <!-- MAIN  -->
+    <main class="site-main">
+      <!-- HERO  -->
+      <section class="hero hero__container">
+        <div class="container">
+          <h1 class="hero__title">Contact</h1>
+        </div>
+      </section>
+
+      <!-- SECTION SERVICES START  -->
+      <section class="sevices-section">
+        <div class="sevices-container container">
+          <div class="services-cards-wrapper">
+            <div class="services-card">
+              <div class="services-cardImgWrapper">
+                <img src="./images/icon/loctionW-icon.svg" alt="icon" />
+              </div>
+              <h3 class="services-card-title active-card">Adress</h3>
+
+              <a class="services-card-link active-card" href="#"
+                >Tashkent, Qazi Mahalla</a
+              >
+            </div>
+            <div class="services-card">
+              <div class="services-cardImgWrapper">
+                <img src="./images/icon/tell-icon.svg" alt="rasm" />
+              </div>
+              <h3 class="services-card-title active-card">Phone Number</h3>
+              <a class="services-card-link active-card" href="tel: +998 94 684 38145"
+                >+998 94 684 38145</a
+              ><br />
+              <a class="services-card-link active-card" href="tel: +998 94 684 38145"
+                >+998 94 684 38145</a
+              ><br />
+              <a class="services-card-link active-card" href="tel: +998 94 684 38145"
+                >+998 94 684 38145</a
+              ><br />
+            </div>
+            <div class="services-card">
+              <div class="services-cardImgWrapper">
+                <img src="./images/icon/emai.svg" alt="" />
+              </div>
+              <h3 class="services-card-title active-card">Email</h3>
+              <a class="services-card-link active-card" href="mailto:Info@pixyz.uz"
+                >Info@pixyz.uz</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONNECTECTION START  -->
+      <section class="connection-section">
+        <div class="connection-container container">
+          <div class="connection__input-feild">
+            <h2 class="connection-heading">Get In Touch</h2>
+            <form class="connection__form" method="POST">
+              <div class="connection__inpWrapper">
+                <input
+                  required
+                  class="connection__input inpMr"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  required
+                  class="connection__input"
+                  type="text"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="connection__inpWrapper">
+                <input
+                  required
+                  class="connection__input inpMr"
+                  type="text"
+                  placeholder="Email"
+                />
+                <input
+                  required
+                  class="connection__input"
+                  type="text"
+                  placeholder="Phone/Telegram"
+                />
+              </div>
+              <div class="connection__inpWrapper">
+                <select required class="inpMr connection__section-interested">
+                  <option value="1">Web Developer</option>
+                  <option value="2">UI/UX Design</option>
+                  <option value="3">Telegram Bots</option>
+                  <option value="4">Business Automation</option>
+                </select>
+                <select required class="connection__section-interested">
+                  <option value="1">Web Developer</option>
+                  <option value="2">UI/UX Design</option>
+                  <option value="3">Telegram Bots</option>
+                  <option value="4">Business Automation</option>
+                </select>
+              </div>
+              <div class="connection__textarea">
+                <textarea
+                  class="connection__aboutProject"
+                  name="massage"
+                  placeholder="About your project"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="connection__submit-wrapper">
+                <button class="form-btn" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="connection__img-feild">
+            <h2 class="connection__sayTitle">Say Hi!</h2>
+            <a class="connection__link" href="mailto:info@pixyz.com"
+              >info@pixyz.com</a
+            >
+            <br />
+            <a class="connection__link" href="tel:+998 71 645 57 67"
+              >+998 71 645 57 67</a
+            >
+            <br />
+            <a class="connection__link" href="https://t.me/pixyzuz">Telegram</a>
+            <br />
+            <img
+              class="connection-bg"
+              src="./images/img/connection-bg.png"
+              alt="bg"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION MAPS START  -->
+      <section class="map-section">
+        <div class="contact-maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23970.19066160692!2d69.20060567604129!3d41.32465850203895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b8d64bfd1b3%3A0x261b8948e4b4e45e!2z0KjQsNC50YXQsNC90YLQsNGF0YPRgNGB0LrQuNC5INGA0LDQudC-0L0sINCi0LDRiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1657779546708!5m2!1sru!2s"
+            width="100%"
+            height="700"
+            frameborder="1"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <!-- SITE FOOTER START  -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-logoWrapper">
+          <a class="site-logo__link" href="index.html">
+            <img
+              class="site-logo__icon"
+              src="./images/icon/site-logoBlack.svg"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <div class="site-footer__wrapper">
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">About us</h2>
+            <p class="site-footer__about-text">
+              Lorem ipsum dolor sit amet,<br />
+              consetetur sadipscing elitr, <br />
+              sed diam nonumy eirmod
+            </p>
+            <div class="site-footer__socials">
+              <ul class="site-footer__social-list">
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/insta-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/facebook-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/twitter-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/linkedin-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="site-footer__social-item">
+                  <a class="site-footer__socials-link" href="#">
+                    <img
+                      class="site-footer__socials-icon"
+                      src="./images/icon/youTube-icon.svg"
+                      alt="social-icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">Important Links</h2>
+            <ul class="site-footer__nav-list">
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">About us </a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Projects</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Services</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Blog</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">Featured Services</h2>
+            <ul class="site-footer__nav-list">
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">IT Managment</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Development</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Services</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">UX/UI Design</a>
+              </li>
+              <li class="site-footer__nav__item">
+                <a class="site-footer__nav__link" href="#">Support Engineer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="site-footer__content">
+            <h2 class="site-footer__heading">Contact</h2>
+            <div class="site-footer__contactWrapper">
+              <div class="site-footer-ImgWrapper">
+                <img
+                  class="site-footer__contactWrapper-img"
+                  src="./images/icon/call-icon.svg"
+                  alt="icon"
+                  width="29"
+                  height="29"
+                />
+              </div>
+              <div class="site-footer__contactTextWr">
+                <p class="site-footer__contactText">Phone</p>
+                <a class="site-footer__contactTextLink" href="#"
+                  >+998 94 658 26 97</a
+                >
+              </div>
+            </div>
+            <div class="site-footer__contactWrapper">
+              <div class="site-footer-ImgWrapper">
+                <img
+                  class="site-footer__contactWrapper-img"
+                  src="./images/icon/email-icon.svg"
+                  alt="icon"
+                  width="33"
+                  height="27"
+                />
+              </div>
+              <div class="site-footer__contactTextWr">
+                <p class="site-footer__contactText">Email</p>
+                <a class="site-footer__contactTextLink" href="#"
+                  >info@pixyz.com</a
+                >
+              </div>
+            </div>
+            <div class="site-footer__contactWrapper">
+              <div class="site-footer-ImgWrapper">
+                <img
+                  class="site-footer__contactWrapper-img"
+                  src="./images/icon/location-icon.svg"
+                  alt="icon"
+                  width="21"
+                  height="30px"
+                />
+              </div>
+              <div class="site-footer__contactTextWr">
+                <p class="site-footer__contactText">Address</p>
+                <a class="site-footer__contactTextLink" href="#"
+                  >Tashkent city, Uzbekistan</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer_bottom">
+        <div class="site-footer_bottom-container container">
+          <p class="site-footer-bottom-Rtext">
+            Copyright @ 2020 PixYz. All Rights Reserved. Designed By Islom
+            Usmonov
+          </p>
+          <p class="site-footer-bottom-Ltext">
+            Terms & Conditions | Privacy Policy
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
